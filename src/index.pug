@@ -1,6 +1,25 @@
 doctype html  
 html(lang='en')  
 	head
-		title Pug
+		title PatternCSS
+		meta(name='description', content='A combination of Pattern Library & Design System.')
+		meta(name='keywords', content='library, pattern, user interface, framework, design system')
+		meta(name='author', content='Praveen Bisht')
+		meta(name='robots', content='index, follow')
+		meta(name='googlebot', content='index, follow')
+		meta(http-equiv='content-language', content='EN')
+		//- link(rel='icon', type='image/x-icon', href='')
+		link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css")
+		script(async defer src="https://buttons.github.io/buttons.js")
 	body
-		include includes/pug/_sup.pug
+		header
+			#header-content
+				#github-stars
+					a(class="twitter-share-button" href="https://twitter.com/intent/tweet?text=PatternCSS : A combination of UI Patterns and Design Systems - &url=https://patterncss.netlify.com&via=prvnbist" target='_blank') Tweet
+					a(class="github-button" href="https://github.com/prvnbist/PatternCSS" data-size="large" data-show-count="true" aria-label="Star prvnbist/PatternCSS on GitHub") Star
+				img(src="./images/Logo.svg", alt="")
+				p A combination of Pattern Library & Design Systems.
+				#header-cta
+					a(href="https://github.com/prvnbist/PatternCSS/archive/master.zip" class='btn is-ghost') Download
+					a(href="https://github.com/prvnbist/PatternCSS"  class='btn is-ghost')  Github
+					a(href="#" class='btn is-ghost' title='Work In Progress') Docs

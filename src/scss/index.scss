@@ -1,0 +1,52 @@
+@import './src/scss/utils/_variables';
+
+// Will be removing most of the properties as more components are built
+header {
+    width:100vw;
+    height:100vh;
+    background: linear-gradient(283.76deg, $primary 6.02%, $primary-light 100%);
+    display: flex;
+    position: relative; 
+    #github-stars {
+        position: absolute;
+        right:20px;
+        top:20px;
+        display: flex;
+        align-items: center;
+        .twitter-share-button {
+            margin-right: 20px;
+            padding: 6.5px 15px;
+            background: #00aced;
+            font-size: 14px;
+            color:#fff;
+            text-decoration: none;
+            border-radius: 4px;
+            line-height: 15px;
+            font-family: $font;
+            font-weight: $light;
+            box-shadow: 0 2px 3px rgba(#000,0.1);
+        }
+    }
+}
+
+#header-content {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;   
+    p {
+        color:$white;
+        margin: 40px 0;
+        text-align: $text-center;
+    }
+}
+
+#header-cta {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 20px;
+    button a {
+        color:$white;
+    }
+}

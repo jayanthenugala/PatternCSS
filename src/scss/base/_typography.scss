@@ -1,0 +1,71 @@
+@import "./src/scss/utils/_variables.scss";
+
+h1,h2,h3,h4,p {
+    font-family: $font;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: $bold;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: $bold;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: $semi-bold;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: $medium;
+}
+
+p {
+    font-size: 18px;
+    font-weight: $light;
+}
+
+a {
+    font-size:16px;
+    font-weight: $light;
+}
+
+@font-face {
+    font-family: $font;
+    src: url('../fonts/hkgrotesk-bold-webfont.woff2') format('woff2'),
+         url('../fonts/hkgrotesk-bold-webfont.woff') format('woff');
+    font-weight: $bold;
+}
+
+@font-face {
+    font-family: $font;
+    src: url('../fonts/hkgrotesk-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/hkgrotesk-semibold-webfont.woff') format('woff');
+    font-weight: $semi-bold;
+}
+
+@font-face {
+    font-family: $font;
+    src: url('../fonts/hkgrotesk-medium-webfont.woff2') format('woff2'),
+         url('../fonts/hkgrotesk-medium-webfont.woff') format('woff');
+    font-weight: $medium;
+}
+
+@font-face {
+    font-family: $font;
+    src: url('../fonts/hkgrotesk-regular-webfont.woff2') format('woff2'),
+         url('../fonts/hkgrotesk-regular-webfont.woff') format('woff');
+    font-weight: $regular;
+}
+
+@font-face {
+    font-family: $font;
+    src: url('../fonts/hkgrotesk-light-webfont.woff2') format('woff2'),
+         url('../fonts/hkgrotesk-light-webfont.woff') format('woff');
+    font-weight: $light;
+}
+

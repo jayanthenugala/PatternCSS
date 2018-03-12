@@ -1,0 +1,23 @@
+@import "./src/scss/utils/_variables.scss";
+@import "./src/scss/utils/_mixins.scss";
+
+.btn {
+    @include object(auto,40px,null);
+    padding: 0 15px;
+    border-radius: 4px;
+    cursor:pointer;
+    text-decoration: none;
+    font-family: $font;
+    font-weight: $light;
+    transition: 0.4s ease-in-out;
+}
+
+.is-ghost {
+    border:1px solid $white;
+    line-height: 40px;
+    color:#fff;
+    &:hover {
+        background: $white;
+        color:$primary;
+    }
+}
