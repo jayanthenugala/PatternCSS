@@ -1,0 +1,70 @@
+h1, h2, h3, h4, p {
+  font-family: "HK Grotesk", sans-serif; }
+
+h1 {
+  font-size: 64px;
+  font-weight: 900; }
+
+h2 {
+  font-size: 48px;
+  font-weight: 900; }
+
+h3 {
+  font-size: 32px;
+  font-weight: 700; }
+
+h4 {
+  font-size: 24px;
+  font-weight: 600; }
+
+p {
+  font-size: 18px;
+  font-weight: 300; }
+
+a {
+  font-size: 16px;
+  font-weight: 300; }
+
+@font-face {
+  font-family: "HK Grotesk", sans-serif;
+  src: url(fonts/hkgrotesk-bold-webfont.woff2) format("woff2"), url(fonts/hkgrotesk-bold-webfont.woff) format("woff");
+  font-weight: 900; }
+
+@font-face {
+  font-family: "HK Grotesk", sans-serif;
+  src: url(fonts/hkgrotesk-semibold-webfont.woff2) format("woff2"), url(fonts/hkgrotesk-semibold-webfont.woff) format("woff");
+  font-weight: 700; }
+
+@font-face {
+  font-family: "HK Grotesk", sans-serif;
+  src: url(fonts/hkgrotesk-medium-webfont.woff2) format("woff2"), url(fonts/hkgrotesk-medium-webfont.woff) format("woff");
+  font-weight: 600; }
+
+@font-face {
+  font-family: "HK Grotesk", sans-serif;
+  src: url(fonts/hkgrotesk-regular-webfont.woff2) format("woff2"), url(fonts/hkgrotesk-regular-webfont.woff) format("woff");
+  font-weight: 500; }
+
+@font-face {
+  font-family: "HK Grotesk", sans-serif;
+  src: url(fonts/hkgrotesk-light-webfont.woff2) format("woff2"), url(fonts/hkgrotesk-light-webfont.woff) format("woff");
+  font-weight: 300; }
+
+.btn {
+  width: auto;
+  height: 40px;
+  padding: 0 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "HK Grotesk", sans-serif;
+  font-weight: 300;
+  transition: 0.4s ease-in-out; }
+
+.is-ghost {
+  border: 1px solid #FFF;
+  line-height: 40px;
+  color: #fff; }
+  .is-ghost:hover {
+    background: #FFF;
+    color: #0066DC; }
